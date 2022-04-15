@@ -1,0 +1,13 @@
+create table pessoa
+(
+	pessoa_id        serial not null primary key,
+	pessoa_nome      varchar(30),
+	pessoa_cpfcnpj   varchar(15),
+	pessoa_telefone  varchar(15),
+	pessoa_email     varchar(30),
+	pessoa_funcao    varchar(30),
+	pessoa_login     varchar(20),
+	pessoa_senha     varchar(30),
+	pessoa_perfil    varchar(10)
+)
+select * from pessoa
