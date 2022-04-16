@@ -1,1 +1,2 @@
 # apiSpringAgenda
+api Rest simples
